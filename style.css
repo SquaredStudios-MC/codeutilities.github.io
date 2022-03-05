@@ -3,6 +3,8 @@
 body {
     background-image: url(images/background.jpg);
     background-position: top;
+    display: flex;
+    height: 100vh;
 }
 
 .left {
@@ -46,9 +48,7 @@ br.height-control {
 }
 
 #dialog {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    margin: auto;
 }
 
 a:link {
